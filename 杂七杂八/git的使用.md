@@ -63,25 +63,25 @@ git commit -m "remove" 移除文件(从Git中删除)
 git rm -f a.a 强行移除修改后文件(从暂存区和工作区中删除)
 git diff --cached 或 $ git diff --staged 查看尚未提交的更新
 git stash push 将文件给push到一个临时空间中
+
 git stash pop 将文件从临时空间pop下来
----------------------------------------------------------
+
 git remote add origin git@github.com:username/Hello-World.git
+
 git push origin master 将本地项目给提交到服务器中
------------------------------------------------------------
+
 git pull 本地与服务器端同步
------------------------------------------------------------------
+
 git push (远程仓库名) (分支名) 将本地分支推送到服务器上去。
+
 git push origin serverfix:awesomebranch
-------------------------------------------------------------------
+
 git fetch 相当于是从远程获取最新版本到本地，不会自动merge
 git commit -a -m "log_message" (-a是提交所有改动，-m是加入log信息) 本地修改同步至服务器端 ：
 git branch branch_0.1 master 从主分支master创建branch_0.1分支
 git branch -m branch_0.1 branch_1.0 将branch_0.1重命名为branch_1.0
 git checkout branch_1.0/master 切换到branch_1.0/master分支
-du -hs
-
------------------------------------------------------------
-mkdir WebApp
+du -hsmkdir WebApp
 cd WebApp
 git init
 touch README
