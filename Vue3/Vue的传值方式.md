@@ -132,7 +132,7 @@
 </template>
 
 <script>
-import emmiter from './utils/eventbus.js'
+import emitter from './utils/eventbus.js'
 
 export default {
     methods: {

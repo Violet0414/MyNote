@@ -102,7 +102,7 @@ export default store;
 </template>
 
 <script>
-	import {mapState} from 'vuex'		// 对state进行映射的一个辅助函数
+	import { mapState } from 'vuex'		// 对state进行映射的一个辅助函数
     
     export default {
         computed: {
